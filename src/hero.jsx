@@ -69,7 +69,7 @@ export default function HeroSection() {
         outlineColor="#7c3aed"
         outlineOpacity={0.65}
       >
-        ANKIT KUMAR
+        Pixel Mesh Dev
       </Text>
 
       {roles.map((role, index) => (

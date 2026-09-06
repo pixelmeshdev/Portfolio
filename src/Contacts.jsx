@@ -13,7 +13,7 @@ const contactDetails = [
   },
   {
     title: "LinkedIn",
-    value: "linkedin.com/in/ankit-kumar-ux",
+    value: "",
     href: "",
     icon: "in",
   },

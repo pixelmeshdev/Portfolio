@@ -1,16 +1,73 @@
-# React + Vite
+# 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern personal portfolio built with React, Vite, and React Three Fiber. The project showcases a 3D-first landing experience with animated scenes, smooth transitions, and an interactive design that feels more like a creative showcase than a traditional portfolio.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 3D hero section with React Three Fiber and Three.js
+- Scroll-based motion and layered visual transitions
+- Responsive single-page layout for portfolio content
+- Custom navigation and contact section
+- Animated UI details using GSAP
+- Tailwind CSS for styling support
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- @react-three/fiber
+- @react-three/drei
+- Three.js
+- GSAP
+- Tailwind CSS
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+4. Preview the production build:
+   ```bash
+   npm run preview
+   ```
+
+## Project Structure
+
+```bash
+Portfolio/
+├── src/
+│   ├── App.jsx
+│   ├── hero.jsx
+│   ├── model.jsx
+│   ├── Navbar.jsx
+│   ├── Experience.jsx
+│   ├── Contacts.jsx
+│   ├── ImageTransitionEffect.jsx
+│   ├── Loader.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Purpose
+
+This portfolio is designed to highlight creativity, motion, and immersive web experiences. It is ideal for developers, designers, and creative professionals who want a portfolio that stands out visually while still remaining easy to maintain and extend.
+
+## Notes
+
+This project is a custom portfolio concept and can be adapted for personal branding, project showcases, or client work. You can expand sections such as projects, services, testimonials, and resume content as needed.
