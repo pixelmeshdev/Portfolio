@@ -10,7 +10,7 @@ import Contacts from './Contacts.jsx';
 import Experience from './Experience.jsx';
 export default function App() {
   return (
-    <div id="hero" style={{ width: "100vw", height: "100vh" }}>
+    <div id="hero" style={{ width: "100%", height: "100vh" }}>
       <Canvas camera={{ position: [0, 0, 3] }}>
         <ambientLight intensity={0.5} />
         <directionalLight intensity={1.5} />
