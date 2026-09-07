@@ -85,11 +85,11 @@ export default function ImageTransitionEffect() {
 
   // 1.loading textures here using useTexture
   const textures = useTexture({
-    img1: "/img1.jpg",
-    img2: "/img2.jpg",
-    img3: "/img3.jpg",
-    img4: "/img4.jpg",
-    imgBg: "/imgM.jpg",
+    img1: "./img1.jpg",
+    img2: "./img2.jpg",
+    img3: "./img3.jpg",
+    img4: "./img4.jpg",
+    imgBg: "./imgM.jpg",
    
   })
 

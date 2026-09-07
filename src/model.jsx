@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import * as THREE from 'three'
 
 export default function Model() {
-  const { scene, nodes } = useGLTF('/outis_draco.glb')
+  const { scene, nodes } = useGLTF('./outis_draco.glb')
   const modelRef = useRef()
   const headRef = useRef()
   const initialheadRot = useRef(new THREE.Euler())
@@ -40,4 +40,4 @@ export default function Model() {
     </group>
   )
 }
-useGLTF.preload('/outis_draco.glb')
+useGLTF.preload('./outis_draco.glb')
